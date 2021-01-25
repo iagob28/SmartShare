@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartShare">
+        <activity android:name=".presentation.vehicle.VehiclesActivity"></activity>
         <activity android:name=".presentation.login.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
